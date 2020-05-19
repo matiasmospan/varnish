@@ -1,6 +1,6 @@
 # Default backend definition.  Set this to point to your content server.
 backend default {
-    .host = "httpd";
+    .host = "httpd-example";
     .port = "8080";
   .connect_timeout = 60s;
   .first_byte_timeout = 60s;
