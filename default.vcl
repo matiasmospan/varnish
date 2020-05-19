@@ -1,4 +1,6 @@
 # Default backend definition.  Set this to point to your content server.
+vcl 4.0;
+
 backend default {
     .host = "httpd-example";
     .port = "8080";
